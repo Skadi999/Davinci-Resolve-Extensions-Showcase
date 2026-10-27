@@ -24,8 +24,8 @@ Search and replace these placeholders in **all four HTML files**:
 | --- | --- |
 | `KineCaption` | Your product name |
 | `$20` / `20 USD` | Your price |
-| `https://YOUR-STORE.lemonsqueezy.com/buy/YOUR-PRODUCT-ID` | Your Lemon Squeezy checkout link (Products → Share) |
-| `support@example.com` | Your support email |
+| `https://videoextensions.lemonsqueezy.com/buy/YOUR-PRODUCT-ID` | Your Lemon Squeezy checkout link (Products → Share) |
+| `vj.novak9@gmail.com` | Your support email |
 | `YOUR NAME, YOUR COUNTRY` | Your legal / business name and country |
 
 Also check in `index.html`:
