@@ -20,14 +20,6 @@ assets/
 
 Search and replace these placeholders in **all four HTML files**:
 
-| Placeholder | Replace with |
-| --- | --- |
-| `Onyx Captions` | Your product name |
-| `$20` / `20 USD` | Your price |
-| `https://videoextensions.lemonsqueezy.com/buy/YOUR-PRODUCT-ID` | Your Lemon Squeezy checkout link (Products → Share) |
-| `vj.novak9@gmail.com` | Your support email |
-| `YOUR NAME, YOUR COUNTRY` | Your legal / business name and country |
-
 Also check in `index.html`:
 
 - The **compatibility table** (Resolve version, OS) and the feature bullets match what the extension really does.
