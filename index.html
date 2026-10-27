@@ -1,0 +1,251 @@
+<!doctype html>
+<!--
+  ================================================================
+  EDIT BEFORE LAUNCH — search this file for these values:
+    • Product name ............ "KineCaption"
+    • Price ................... "$20" / "20 USD"
+    • Checkout link ........... https://YOUR-STORE.lemonsqueezy.com/buy/YOUR-PRODUCT-ID
+    • Support email ........... support@example.com
+    • Compatibility table ..... Resolve / OS versions
+    • Demo video .............. assets/demo.mp4
+    • Seller name / country ... "YOUR NAME" in terms/privacy/refund pages
+  The same name, email and seller details also appear in
+  terms.html, privacy.html and refund.html.
+  ================================================================
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KineCaption — Animated word-by-word captions for DaVinci Resolve</title>
+  <meta name="description" content="A native DaVinci Resolve extension that generates animated, word-by-word Text+ captions on your timeline. One-time purchase, instant digital download.">
+  <meta property="og:title" content="KineCaption — Animated word-by-word captions for DaVinci Resolve">
+  <meta property="og:description" content="Generate animated, word-by-word Text+ captions directly inside DaVinci Resolve.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0e1014">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="./">
+      <img src="assets/favicon.svg" alt="" width="28" height="28">
+      KineCaption
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#features">Features</a>
+      <a href="#faq">FAQ</a>
+      <a href="#support">Support</a>
+      <a class="btn btn-primary btn-small" href="#pricing">Buy — $20</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- 1. Product name + headline -->
+  <section class="hero">
+    <div class="container">
+      <span class="eyebrow">Extension for DaVinci Resolve · Windows &amp; macOS</span>
+      <h1>Animated <em>word-by-word</em> captions, generated right inside DaVinci Resolve.</h1>
+      <p class="lede">
+        KineCaption is a native DaVinci Resolve extension that turns your transcript into
+        styled, animated Text+ captions on your timeline — no round-trips to other apps.
+      </p>
+
+      <!-- 2. Demo video -->
+      <div class="video-frame" id="demo">
+        <!--
+          Put your recording at assets/demo.mp4 (H.264 MP4 keeps it compatible
+          everywhere). For a still frame before playback, save one as
+          assets/poster.jpg and add poster="assets/poster.jpg" to <video>.
+          Prefer YouTube/Vimeo? Replace the <video> element with e.g.:
+          <iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID" title="KineCaption demo"
+                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        -->
+        <video controls playsinline preload="metadata">
+          <source src="assets/demo.mp4" type="video/mp4">
+        </video>
+
+        <!-- Shown automatically while assets/demo.mp4 is missing -->
+        <div class="demo-placeholder" aria-hidden="true">
+          <span class="demo-badge">Demo preview</span>
+          <div class="demo-viewer">
+            <div class="demo-caption" id="demo-caption"></div>
+          </div>
+          <div class="demo-timeline">
+            <div class="demo-track text" id="demo-text-track"></div>
+            <div class="demo-track video"><div class="demo-clip"></div></div>
+            <div class="demo-playhead" id="demo-playhead"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Summary bullets + 3. price & delivery -->
+  <section id="features">
+    <div class="container grid-2">
+      <div>
+        <h2>What it does</h2>
+        <p class="section-sub">Everything happens inside Resolve — your captions are regular Text+ clips you can tweak like any other.</p>
+
+        <ul class="features">
+          <li>
+            <span class="check" aria-hidden="true">✓</span>
+            <div>
+              <strong>Native DaVinci Resolve extension</strong>
+              <span class="desc">Runs from Resolve's Workspace › Scripts menu and works on your open timeline.</span>
+            </div>
+          </li>
+          <li>
+            <span class="check" aria-hidden="true">✓</span>
+            <div>
+              <strong>Word-by-word animated Text+ captions</strong>
+              <span class="desc">Each word pops in, highlights and times itself to your audio — the short-form social style, generated automatically.</span>
+            </div>
+          </li>
+          <li>
+            <span class="check" aria-hidden="true">✓</span>
+            <div>
+              <strong>Fully editable output</strong>
+              <span class="desc">Change font, colours, size, position and highlight colour; captions stay as standard Text+ clips on their own track.</span>
+            </div>
+          </li>
+          <li>
+            <span class="check" aria-hidden="true">✓</span>
+            <div>
+              <strong>Works with your existing subtitles</strong>
+              <span class="desc">Use Resolve's own transcription or import an <code>.srt</code> file as the source.</span>
+            </div>
+          </li>
+        </ul>
+
+        <table class="compat" aria-label="Compatibility">
+          <tr><th scope="row">DaVinci Resolve</th><td>Version 19 or newer (Free &amp; Studio)</td></tr>
+          <tr><th scope="row">Operating system</th><td>Windows 10/11, macOS 12+</td></tr>
+          <tr><th scope="row">What you download</th><td><code>.zip</code> containing the extension (<code>.drfx</code>) and install guide</td></tr>
+          <tr><th scope="row">License</th><td>Lifetime, personal &amp; commercial use, includes updates for the current major version</td></tr>
+        </table>
+      </div>
+
+      <aside class="price-card" id="pricing" aria-labelledby="pricing-title">
+        <p class="plan" id="pricing-title">Lifetime license</p>
+        <p class="price">$20 <small>USD</small></p>
+        <p class="one-time">One-time payment. No subscription.</p>
+
+        <!--
+          Paste your Lemon Squeezy checkout link below.
+          The "lemonsqueezy-button" class opens checkout as an overlay
+          (via lemon.js at the bottom of the page); without JS it opens normally.
+        -->
+        <a class="btn btn-primary btn-block lemonsqueezy-button"
+           href="https://YOUR-STORE.lemonsqueezy.com/buy/YOUR-PRODUCT-ID">
+          Get Lifetime License — $20 USD
+        </a>
+
+        <p class="delivery">
+          <strong>Instant digital download</strong> (<code>.zip</code> / <code>.drfx</code>)
+          + <strong>license key delivered via email</strong> right after checkout.
+        </p>
+
+        <ul>
+          <li>All caption styles &amp; presets</li>
+          <li>Free updates for version 1.x</li>
+          <li>Email support</li>
+          <li>14-day money-back guarantee</li>
+        </ul>
+
+        <p class="secure">Secure checkout by Lemon Squeezy, our reseller and Merchant of Record. Taxes calculated at checkout.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="container">
+      <h2>How it works</h2>
+      <p class="section-sub">From purchase to captions in a couple of minutes.</p>
+      <div class="steps">
+        <div class="step">
+          <h3>Buy &amp; download</h3>
+          <p>Complete checkout and get the download link and your license key by email instantly.</p>
+        </div>
+        <div class="step">
+          <h3>Install</h3>
+          <p>Double-click the <code>.drfx</code> file (or drag it onto Resolve) and restart Resolve.</p>
+        </div>
+        <div class="step">
+          <h3>Generate</h3>
+          <p>Open your timeline, run KineCaption, pick a style — animated captions land on a new track.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="container">
+      <h2>FAQ</h2>
+      <p class="section-sub">Still unsure? Email us — details below.</p>
+      <div class="faq">
+        <details>
+          <summary>Does it work with the free version of DaVinci Resolve?</summary>
+          <p>Yes. KineCaption works with both DaVinci Resolve (free) and DaVinci Resolve Studio, version 19 or newer.</p>
+        </details>
+        <details>
+          <summary>What exactly do I receive after buying?</summary>
+          <p>A download link for a <code>.zip</code> file containing the extension (<code>.drfx</code>) and a short install guide, plus a license key. Both arrive by email immediately after checkout and are also shown on the order confirmation page.</p>
+        </details>
+        <details>
+          <summary>Is this a subscription?</summary>
+          <p>No. It's a one-time payment of $20 USD for a lifetime license.</p>
+        </details>
+        <details>
+          <summary>What if it doesn't work on my system?</summary>
+          <p>Email us and we'll help you get it running. If we can't resolve the issue within 14 days of purchase, you get a full refund. See the <a href="refund.html">refund policy</a>.</p>
+        </details>
+        <details>
+          <summary>Can I use it on more than one computer?</summary>
+          <p>Yes — one license covers you, the buyer, on up to two computers that you personally use.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- 4. Support email + 5. fulfillment & refund policy -->
+<footer class="site-footer" id="support">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Support</h4>
+        <p>Support: <a href="mailto:support@example.com">support@example.com</a></p>
+        <p>We usually reply within 1–2 business days.</p>
+      </div>
+      <div>
+        <h4>Delivery &amp; refunds</h4>
+        <p>Instant digital delivery after checkout. If the extension does not work on your system and we cannot resolve the issue within 14 days, we offer a full refund.</p>
+      </div>
+    </div>
+
+    <nav class="footer-links" aria-label="Legal">
+      <a href="terms.html">Terms of Service</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="refund.html">Refund Policy</a>
+      <a href="mailto:support@example.com">Contact</a>
+    </nav>
+
+    <p class="legal-note">
+      © <span id="year">2026</span> KineCaption. Orders are processed by Lemon Squeezy, our online reseller and Merchant of Record.
+      DaVinci Resolve is a trademark of Blackmagic Design Pty Ltd. KineCaption is an independent product and is not affiliated with or endorsed by Blackmagic Design.
+    </p>
+  </div>
+</footer>
+
+<script src="assets/main.js" defer></script>
+<!-- Lemon Squeezy checkout overlay — https://docs.lemonsqueezy.com/help/lemonjs/what-is-lemonjs -->
+<script src="https://app.lemonsqueezy.com/js/lemon.js" defer></script>
+</body>
+</html>
