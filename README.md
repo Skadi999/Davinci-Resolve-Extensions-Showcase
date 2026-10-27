@@ -1,6 +1,6 @@
-# KineCaption website
+# Onyx Captions website
 
-Static landing page for the KineCaption DaVinci Resolve extension, hosted on GitHub Pages and used as the store website for Lemon Squeezy.
+Static landing page for the Onyx Captions DaVinci Resolve extension, hosted on GitHub Pages and used as the store website for Lemon Squeezy.
 
 No build step — plain HTML, CSS and a little JavaScript.
 
@@ -22,7 +22,7 @@ Search and replace these placeholders in **all four HTML files**:
 
 | Placeholder | Replace with |
 | --- | --- |
-| `KineCaption` | Your product name |
+| `Onyx Captions` | Your product name |
 | `$20` / `20 USD` | Your price |
 | `https://videoextensions.lemonsqueezy.com/buy/YOUR-PRODUCT-ID` | Your Lemon Squeezy checkout link (Products → Share) |
 | `vj.novak9@gmail.com` | Your support email |
