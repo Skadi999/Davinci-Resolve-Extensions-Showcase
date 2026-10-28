@@ -110,6 +110,13 @@ code {
 }
 .btn-primary:hover { background: var(--accent-strong); }
 
+.btn-secondary {
+  background: var(--bg-raised);
+  border-color: var(--border);
+  color: var(--text);
+}
+.btn-secondary:hover { border-color: var(--text-muted); }
+
 .btn-small { padding: 8px 14px; font-size: 0.9rem; }
 .btn-block { width: 100%; }
 
@@ -138,11 +145,27 @@ code {
 .hero h1 em { font-style: normal; color: var(--accent); }
 
 .lede {
-  margin: 0 auto 36px;
+  margin: 0 auto 28px;
   max-width: 640px;
   color: var(--text-muted);
   font-size: 1.15rem;
 }
+
+.hero-cta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.hero-note {
+  margin: 14px auto 36px;
+  max-width: 560px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.trial-link { margin: 12px 0 0; font-size: 0.9rem; text-align: center; }
 
 /* ------------------------------------------------------------------
    Demo video

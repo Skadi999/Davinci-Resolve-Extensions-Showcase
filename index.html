@@ -4,6 +4,8 @@
   EDIT BEFORE LAUNCH — search this file for these values:
     • Price ................... "$20" / "20 USD"
     • Demo video .............. assets/demo.mp4
+    • Free download ........... downloads/Onyx-Captions-Setup.exe
+    • Checkout link ........... lemonsqueezy.com/buy/
   The same name, email and seller details also appear in
   terms.html, privacy.html and refund.html.
   ================================================================
@@ -13,7 +15,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Onyx Captions — Animated word-by-word captions for DaVinci Resolve</title>
-  <meta name="description" content="A native DaVinci Resolve extension that generates animated, word-by-word Text+ captions on your timeline. One-time purchase, instant digital download.">
+  <meta name="description" content="A native DaVinci Resolve Studio extension that generates animated, word-by-word Text+ captions on your timeline. Free to try, one-time purchase.">
   <meta property="og:title" content="Onyx Captions — Animated word-by-word captions for DaVinci Resolve">
   <meta property="og:description" content="Generate animated, word-by-word Text+ captions directly inside DaVinci Resolve.">
   <meta property="og:type" content="website">
@@ -43,11 +45,21 @@
   <!-- 1. Product name + headline -->
   <section class="hero">
     <div class="container">
-      <span class="eyebrow">Extension for DaVinci Resolve · Windows</span>
+      <span class="eyebrow">Extension for DaVinci Resolve Studio · Windows</span>
       <h1>Animated <em>word-by-word</em> captions, generated right inside DaVinci Resolve.</h1>
       <p class="lede">
         Onyx Captions is a native DaVinci Resolve extension that turns your transcript into
         styled, animated Text+ captions on your timeline — no round-trips to other apps.
+      </p>
+
+      <!-- The free installer: upload it next to this page (see README) -->
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="downloads/Onyx-Captions-Setup.exe" download>Download free trial</a>
+        <a class="btn btn-secondary" href="#pricing">Buy license — $20</a>
+      </div>
+      <p class="hero-note">
+        Try every feature for free. A license unlocks adding the captions to your timeline and exporting subtitles.
+        Requires DaVinci Resolve Studio 21.1 or newer on Windows 10/11.
       </p>
 
       <!-- 2. Demo video -->
@@ -85,14 +97,14 @@
     <div class="container grid-2">
       <div>
         <h2>What it does</h2>
-        <p class="section-sub">Everything happens inside Resolve — your captions are regular Text+ clips you can tweak like any other.</p>
+        <p class="section-sub">Everything happens inside Resolve — style and edit with a live preview, then the captions land as titles on their own track.</p>
 
         <ul class="features">
           <li>
             <span class="check" aria-hidden="true">✓</span>
             <div>
               <strong>Native DaVinci Resolve extension</strong>
-              <span class="desc">Runs from Resolve's Workspace › Scripts menu and works on your open timeline.</span>
+              <span class="desc">Opens from Resolve's Workspace › Workflow Integrations menu and works on your open timeline.</span>
             </div>
           </li>
           <li>
@@ -105,24 +117,46 @@
           <li>
             <span class="check" aria-hidden="true">✓</span>
             <div>
-              <strong>Fully editable output</strong>
-              <span class="desc">Change font, colours, size, position and highlight colour; captions stay as standard Text+ clips on their own track.</span>
+              <strong>Styles, presets and a live preview</strong>
+              <span class="desc">Change font, colours, size, position, animation and highlight colour, and see the result before anything touches your timeline.</span>
+            </div>
+          </li>
+          <li>
+            <span class="check" aria-hidden="true">✓</span>
+            <div>
+              <strong>Automatic emphasis and emoji</strong>
+              <span class="desc">Key words and numbers get highlighted and matching emoji are suggested automatically — or pick them yourself, word by word.</span>
+            </div>
+          </li>
+          <li>
+            <span class="check" aria-hidden="true">✓</span>
+            <div>
+              <strong>Edit the text, with undo</strong>
+              <span class="desc">Fix words, and split or merge captions, right in the extension; every change can be undone.</span>
+            </div>
+          </li>
+          <li>
+            <span class="check" aria-hidden="true">✓</span>
+            <div>
+              <strong>A look for each speaker</strong>
+              <span class="desc">Interviews and podcasts can give every speaker their own colour or position.</span>
             </div>
           </li>
           <li>
             <span class="check" aria-hidden="true">✓</span>
             <div>
               <strong>Works with your existing subtitles</strong>
-              <span class="desc">Use Resolve's own transcription or import an <code>.srt</code> file as the source.</span>
+              <span class="desc">Use Resolve's own transcription, a subtitle track on your timeline, or an <code>.srt</code> / <code>.vtt</code> file as the source — and export your edited captions as SRT or WebVTT.</span>
             </div>
           </li>
         </ul>
 
         <table class="compat" aria-label="Compatibility">
-          <tr><th scope="row">DaVinci Resolve</th><td>Version 21.1 or newer (Free &amp; Studio)</td></tr>
+          <tr><th scope="row">DaVinci Resolve</th><td>Studio, version 21.1 or newer (the free version can't run extensions)</td></tr>
           <tr><th scope="row">Operating system</th><td>Windows 10/11</td></tr>
-          <tr><th scope="row">What you download</th><td><code>.zip</code> containing the extension (<code>.drfx</code>) and install guide</td></tr>
-          <tr><th scope="row">License</th><td>Lifetime, personal &amp; commercial use, includes updates for the current major version</td></tr>
+          <tr><th scope="row">What you download</th><td>A Windows installer (<code>.exe</code>), free to try</td></tr>
+          <tr><th scope="row">Free trial</th><td>Every feature works without a key; a license unlocks adding captions to the timeline and exporting subtitles</td></tr>
+          <tr><th scope="row">License</th><td>Lifetime, personal &amp; commercial use, up to 2 computers, includes updates for the current major version</td></tr>
         </table>
       </div>
 
@@ -142,16 +176,21 @@
         </a>
 
         <p class="delivery">
-          <strong>Instant digital download</strong> (<code>.zip</code> / <code>.drfx</code>)
-          + <strong>license key delivered via email</strong> right after checkout.
+          <strong>License key delivered via email</strong> right after checkout, with a link to the
+          <strong>Windows installer</strong>. Already trying it? Just paste the key — no reinstall needed.
         </p>
 
         <ul>
+          <li>Add captions to your timeline</li>
+          <li>Export SRT &amp; WebVTT subtitles</li>
           <li>All caption styles &amp; presets</li>
+          <li>Use on up to 2 computers</li>
           <li>Free updates for version 1.x</li>
           <li>Email support</li>
           <li>14-day money-back guarantee</li>
         </ul>
+
+        <p class="trial-link">Not sure yet? <a href="downloads/Onyx-Captions-Setup.exe" download>Download the free trial</a></p>
 
         <p class="secure">Secure checkout by Lemon Squeezy, our reseller and Merchant of Record. Taxes calculated at checkout.</p>
       </aside>
@@ -161,19 +200,19 @@
   <section id="how">
     <div class="container">
       <h2>How it works</h2>
-      <p class="section-sub">From purchase to captions in a couple of minutes.</p>
+      <p class="section-sub">Try everything for free; pay when you're ready to put the captions on your timeline.</p>
       <div class="steps">
         <div class="step">
-          <h3>Buy &amp; download</h3>
-          <p>Complete checkout and get the download link and your license key by email instantly.</p>
-        </div>
-        <div class="step">
           <h3>Install</h3>
-          <p>Double-click the <code>.drfx</code> file (or drag it onto Resolve) and restart Resolve.</p>
+          <p>Download the free installer, run it and restart DaVinci Resolve.</p>
         </div>
         <div class="step">
-          <h3>Generate</h3>
-          <p>Open your timeline, run Onyx Captions, pick a style — animated captions land on a new track.</p>
+          <h3>Style &amp; edit</h3>
+          <p>Open your timeline, choose Workspace › Workflow Integrations › Onyx Captions, transcribe, pick a style and fine-tune it in the preview.</p>
+        </div>
+        <div class="step">
+          <h3>Activate &amp; generate</h3>
+          <p>Buy a license, paste the key from your email, and the animated captions land on a new track.</p>
         </div>
       </div>
     </div>
@@ -185,8 +224,12 @@
       <p class="section-sub">Still unsure? Email us — details below.</p>
       <div class="faq">
         <details>
+          <summary>Is there a free trial?</summary>
+          <p>Yes. <a href="downloads/Onyx-Captions-Setup.exe" download>Download the installer</a> and use every feature — transcribing, styles, editing and the live preview — for as long as you like. A license unlocks adding the captions to your timeline and exporting subtitles.</p>
+        </details>
+        <details>
           <summary>Does it work with the free version of DaVinci Resolve?</summary>
-          <p>No. Onyx Captions works only with DaVinci Resolve Studio, version 21.1 or newer.</p>
+          <p>No. DaVinci Resolve only runs extensions like Onyx Captions in DaVinci Resolve Studio, version 21.1 or newer.</p>
         </details>
         <details>
           <summary>Which operating systems are supported?</summary>
@@ -194,7 +237,16 @@
         </details>
         <details>
           <summary>What exactly do I receive after buying?</summary>
-          <p>A download link for a <code>.zip</code> file containing the extension (<code>.drfx</code>) and a short install guide, plus a license key. Both arrive by email immediately after checkout and are also shown on the order confirmation page.</p>
+          <p>A license key and a download link for the Windows installer. Both arrive by email immediately after checkout and are also shown on the order confirmation page. If you've already installed the free trial, paste the key into Onyx Captions — no reinstall needed.</p>
+        </details>
+        <!-- Remove this answer once the installer is code-signed -->
+        <details>
+          <summary>Windows says "Windows protected your PC" when I run the installer. Is it safe?</summary>
+          <p>Windows shows this for installers from small developers that it doesn't know yet. Click <strong>More info</strong>, then <strong>Run anyway</strong>.</p>
+        </details>
+        <details>
+          <summary>Does it need an internet connection?</summary>
+          <p>Only to activate your key and to confirm it about once a day. Without internet it keeps working for 14 days after the last check. Your footage and transcripts never leave your computer.</p>
         </details>
         <details>
           <summary>Is this a subscription?</summary>
@@ -206,7 +258,7 @@
         </details>
         <details>
           <summary>Can I use it on more than one computer?</summary>
-          <p>Yes — one license covers you, the buyer, on up to two computers that you personally use.</p>
+          <p>Yes — one license covers you, the buyer, on up to two computers that you personally use. Moving to a new computer? Choose <strong>Deactivate this computer</strong> in the extension's license screen, then activate the key on the new one.</p>
         </details>
       </div>
     </div>
@@ -225,7 +277,7 @@
       </div>
       <div>
         <h4>Delivery &amp; refunds</h4>
-        <p>Instant digital delivery after checkout. If the extension does not work on your system and we cannot resolve the issue within 14 days, we offer a full refund.</p>
+        <p>Free trial download; your license key is delivered instantly after checkout. If the extension does not work on your system and we cannot resolve the issue within 14 days, we offer a full refund.</p>
       </div>
     </div>
 
