@@ -15,15 +15,14 @@ assets/
   favicon.svg   Logo / favicon
   demo.mp4      Demo recording (web version)
 downloads/
-  Onyx-Captions-Setup.exe   ← the free trial installer (add before launch)
+  Install-Onyx-Captions.lua   ← the free trial installer (add before launch)
 ```
 
 ## Before launch
 
-- **Free trial installer:** put the installer at `downloads/Onyx-Captions-Setup.exe`. Every *Download free trial* link points there. Keep the file name the same for each release so the links never change.
+- **Free trial installer:** build it in the extension's repository with `npm run installer` and copy `release/Install Onyx Captions.lua` to `downloads/Install-Onyx-Captions.lua` (no spaces in the web address; browsers still save it as *Install Onyx Captions.lua*). Every *Download free trial* link points there. Keep the file name the same for each release so the links never change.
 - **Checkout link:** in `index.html`, the *Get Lifetime License* button needs the product's checkout link from Lemon Squeezy (publish the product, then *Share*). Use the live-mode product's link at launch.
 - **Lemon Squeezy product:** turn on license keys with an activation limit of **2** (the site promises two computers), and attach the same installer as the product's file.
-- **Code signing:** while the installer isn't code-signed, keep the "Windows protected your PC" FAQ answer. Remove it once it is signed.
 - Check that the feature bullets, the compatibility table and the FAQ still match the extension after each release, and that `privacy.html` section 4 matches what the extension sends over the network.
 
 ### Demo video

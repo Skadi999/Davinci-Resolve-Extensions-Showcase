@@ -4,7 +4,7 @@
   EDIT BEFORE LAUNCH — search this file for these values:
     • Price ................... "$20" / "20 USD"
     • Demo video .............. assets/demo.mp4
-    • Free download ........... downloads/Onyx-Captions-Setup.exe
+    • Free download ........... downloads/Install-Onyx-Captions.lua
     • Checkout link ........... lemonsqueezy.com/buy/
   The same name, email and seller details also appear in
   terms.html, privacy.html and refund.html.
@@ -54,7 +54,7 @@
 
       <!-- The free installer: upload it next to this page (see README) -->
       <div class="hero-cta">
-        <a class="btn btn-primary" href="downloads/Onyx-Captions-Setup.exe" download>Download free trial</a>
+        <a class="btn btn-primary" href="downloads/Install-Onyx-Captions.lua" download="Install Onyx Captions.lua">Download free trial</a>
         <a class="btn btn-secondary" href="#pricing">Buy license — $20</a>
       </div>
       <p class="hero-note">
@@ -154,7 +154,7 @@
         <table class="compat" aria-label="Compatibility">
           <tr><th scope="row">DaVinci Resolve</th><td>Studio, version 21.1 or newer (the free version can't run extensions)</td></tr>
           <tr><th scope="row">Operating system</th><td>Windows 10/11</td></tr>
-          <tr><th scope="row">What you download</th><td>A Windows installer (<code>.exe</code>), free to try</td></tr>
+          <tr><th scope="row">What you download</th><td>A small installer (<code>.lua</code>) you drag into Resolve's Console, free to try</td></tr>
           <tr><th scope="row">Free trial</th><td>Every feature works without a key; a license unlocks adding captions to the timeline and exporting subtitles</td></tr>
           <tr><th scope="row">License</th><td>Lifetime, personal &amp; commercial use, up to 2 computers, includes updates for the current major version</td></tr>
         </table>
@@ -177,7 +177,7 @@
 
         <p class="delivery">
           <strong>License key delivered via email</strong> right after checkout, with a link to the
-          <strong>Windows installer</strong>. Already trying it? Just paste the key — no reinstall needed.
+          <strong>installer</strong>. Already trying it? Just paste the key — no reinstall needed.
         </p>
 
         <ul>
@@ -190,7 +190,7 @@
           <li>14-day money-back guarantee</li>
         </ul>
 
-        <p class="trial-link">Not sure yet? <a href="downloads/Onyx-Captions-Setup.exe" download>Download the free trial</a></p>
+        <p class="trial-link">Not sure yet? <a href="downloads/Install-Onyx-Captions.lua" download="Install Onyx Captions.lua">Download the free trial</a></p>
 
         <p class="secure">Secure checkout by Lemon Squeezy, our reseller and Merchant of Record. Taxes calculated at checkout.</p>
       </aside>
@@ -204,7 +204,7 @@
       <div class="steps">
         <div class="step">
           <h3>Install</h3>
-          <p>Download the free installer, run it and restart DaVinci Resolve.</p>
+          <p>Download the free installer, open Workspace › Console in DaVinci Resolve, drag the file into it and click Install. Then restart Resolve.</p>
         </div>
         <div class="step">
           <h3>Style &amp; edit</h3>
@@ -225,7 +225,7 @@
       <div class="faq">
         <details>
           <summary>Is there a free trial?</summary>
-          <p>Yes. <a href="downloads/Onyx-Captions-Setup.exe" download>Download the installer</a> and use every feature — transcribing, styles, editing and the live preview — for as long as you like. A license unlocks adding the captions to your timeline and exporting subtitles.</p>
+          <p>Yes. <a href="downloads/Install-Onyx-Captions.lua" download="Install Onyx Captions.lua">Download the installer</a> and use every feature — transcribing, styles, editing and the live preview — for as long as you like. A license unlocks adding the captions to your timeline and exporting subtitles.</p>
         </details>
         <details>
           <summary>Does it work with the free version of DaVinci Resolve?</summary>
@@ -237,12 +237,11 @@
         </details>
         <details>
           <summary>What exactly do I receive after buying?</summary>
-          <p>A license key and a download link for the Windows installer. Both arrive by email immediately after checkout and are also shown on the order confirmation page. If you've already installed the free trial, paste the key into Onyx Captions — no reinstall needed.</p>
+          <p>A license key and a download link for the installer. Both arrive by email immediately after checkout and are also shown on the order confirmation page. If you've already installed the free trial, paste the key into Onyx Captions — no reinstall needed.</p>
         </details>
-        <!-- Remove this answer once the installer is code-signed -->
         <details>
-          <summary>Windows says "Windows protected your PC" when I run the installer. Is it safe?</summary>
-          <p>Windows shows this for installers from small developers that it doesn't know yet. Click <strong>More info</strong>, then <strong>Run anyway</strong>.</p>
+          <summary>How do I install, update or uninstall it?</summary>
+          <p>In DaVinci Resolve Studio, open <strong>Workspace › Console</strong> and drag <code>Install Onyx Captions.lua</code> into the Console window. Click <strong>Install</strong>, then restart Resolve and open <strong>Workspace › Workflow Integrations › Onyx Captions</strong>. To update, do the same with the newer file; to uninstall, drag it in again and click <strong>Uninstall</strong>. The installer runs inside Resolve, so there's nothing to run outside it and no admin rights are needed.</p>
         </details>
         <details>
           <summary>Does it need an internet connection?</summary>
