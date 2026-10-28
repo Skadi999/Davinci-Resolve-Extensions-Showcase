@@ -1,5 +1,5 @@
 --[[
-  Onyx Captions 0.2.0 installer for DaVinci Resolve Studio
+  Onyx Captions 1.0.0 installer for DaVinci Resolve Studio
 
   To install: in DaVinci Resolve choose Workspace > Console, then drag this
   file into the Console window. Run it again later to update or uninstall.
@@ -8,7 +8,7 @@
   and nothing else. The extension's files are stored at the end of this file.
 ]]
 
-local VERSION = "0.2.0"
+local VERSION = "1.0.0"
 local PLUGIN_ID = "com.onyxcaptions.resolve"
 local MIN_RESOLVE = { 21, 1 }
 
@@ -9561,8 +9561,8 @@ fTsK
 ]] },
   { path = "main/license-config.json", data = [[
 ewogICJzdG9yZUlkIjogNTA3ODA1LAogICJwcm9kdWN0SWRzIjogWzE0NzgxMDhdLAogICJidXlVcmwiOiAiaHR0cHM6Ly92aWRl
-b2V4dGVuc2lvbnMubGVtb25zcXVlZXp5LmNvbS9idXkvMTQ3ODEwOCIsCiAgImdyYWNlRGF5cyI6IDE0LAogICJyZXZhbGlkYXRl
-SG91cnMiOiAyNAp9Cg==
+b2V4dGVuc2lvbnMubGVtb25zcXVlZXp5LmNvbS9jaGVja291dC9idXkvMTkyMDM0ZjQtN2RkZC00ZDczLWI1ODYtN2VlY2Y3ZTRh
+MDNkIiwKICAiZ3JhY2VEYXlzIjogMTQsCiAgInJldmFsaWRhdGVIb3VycyI6IDI0Cn0K
 ]] },
   { path = "main/license.js", data = [[
 Ly8gTGVtb24gU3F1ZWV6eSBsaWNlbnNlIGtleXM6IGFjdGl2YXRpb24sIHZhbGlkYXRpb24gYW5kIG9mZmxpbmUgZ3JhY2UuCi8v
@@ -9747,13 +9747,13 @@ eGFjdCB9Owo=
   { path = "manifest.xml", data = [[
 PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPEJsYWNrbWFnaWNEZXNpZ24+CiAgICA8UGx1Z2luPgogICAg
 ICAgIDxJZD5jb20ub255eGNhcHRpb25zLnJlc29sdmU8L0lkPgogICAgICAgIDxOYW1lPk9ueXggQ2FwdGlvbnM8L05hbWU+CiAg
-ICAgICAgPFZlcnNpb24+MC4yLjA8L1ZlcnNpb24+CiAgICAgICAgPERlc2NyaXB0aW9uPkFuaW1hdGVkLCB3b3JkLXRpbWVkIGNh
+ICAgICAgPFZlcnNpb24+MS4wLjA8L1ZlcnNpb24+CiAgICAgICAgPERlc2NyaXB0aW9uPkFuaW1hdGVkLCB3b3JkLXRpbWVkIGNh
 cHRpb25zIGZyb20gUmVzb2x2ZSdzIEFJIHRyYW5zY3JpcHRpb248L0Rlc2NyaXB0aW9uPgogICAgICAgIDxGaWxlUGF0aD5tYWlu
 LmpzPC9GaWxlUGF0aD4KICAgIDwvUGx1Z2luPgo8L0JsYWNrbWFnaWNEZXNpZ24+Cg==
 ]] },
   { path = "package.json", data = [[
 ewogICJuYW1lIjogIm9ueXgtY2FwdGlvbnMiLAogICJwcm9kdWN0TmFtZSI6ICJPbnl4IENhcHRpb25zIiwKICAidmVyc2lvbiI6
-ICIwLjIuMCIsCiAgImRlc2NyaXB0aW9uIjogIkFuaW1hdGVkIGNhcHRpb25zIGZvciBEYVZpbmNpIFJlc29sdmUgU3R1ZGlvIiwK
+ICIxLjAuMCIsCiAgImRlc2NyaXB0aW9uIjogIkFuaW1hdGVkIGNhcHRpb25zIGZvciBEYVZpbmNpIFJlc29sdmUgU3R1ZGlvIiwK
 ICAibWFpbiI6ICJtYWluLmpzIiwKICAicHJpdmF0ZSI6IHRydWUKfQo=
 ]] },
   { path = "preload.js", data = [[
